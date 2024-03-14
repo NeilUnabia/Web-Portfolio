@@ -1,0 +1,63 @@
+#about {
+    padding-top: 10rem;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 7rem;
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(40, 40, 40), rgb(0, 0, 0));
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+}
+
+.about_container {
+    padding-top: 1rem;
+}
+
+.about_title {
+    padding-left: 32rem;
+    text-align: center;
+    margin-top: -6rem;
+    justify-content: center;
+}
+
+.about_img-wrapper {
+    margin-left: 5rem;
+}
+
+.about_img {
+    border-radius: 50%;
+    height: 24.5rem;
+    width: 24.5rem;;
+}
+
+.about_button_wrapper {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.about_button {
+    margin-right: 30rem;
+    background-color: red;
+    color: #000000;
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 0 0 10px yellow; /* Add glow */
+    transition: box-shadow 0.2s ease-in-out; /* Add transition for the glow effect */
+}
+
+.about_button:hover {
+    box-shadow: none; /* Remove glow on hover */
+}
+
+.about_button:hover .fa-arrow-circle-right {
+    transform: translateX(5px);
+    transition: transform 0.3s ease-in-out;
+}
+
+.about p {
+    justify-items: center;
+}
+

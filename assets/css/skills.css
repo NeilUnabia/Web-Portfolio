@@ -1,0 +1,23 @@
+#skills {
+    display: flex;
+    padding-top: 4rem;
+    justify-content: center;
+    padding-bottom: 3rem;
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(40, 40, 40), rgb(0, 0, 0));
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+}
+
+.skills_container {
+    padding-top: 1rem;
+}
+
+.skills_title {
+    text-align: center;
+}
+
+#skills_list {
+    margin-top: 1rem;
+}
+

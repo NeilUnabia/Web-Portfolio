@@ -1,0 +1,24 @@
+#contact {
+    padding-bottom: 0.30rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+    background-color: black;
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(40, 40, 40), rgb(0, 0, 0));
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    
+}
+
+.contact_container {
+    margin-right: 55rem;
+}
+
+.social_icons {
+    text-align:justify; /* Optional: centers the icons horizontally */
+}
+
+.social_icons li {
+    margin-right: 10px; /* Adjust spacing between icons as needed */
+}
