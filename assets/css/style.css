@@ -11,8 +11,8 @@ body {
 }
 
 h1 {
-    font-family: Lucida Bright;
-    font-size: 50px;
+    font-family: "Audiowide", sans-serif;
+    font-size: 30px;
     color: white;
 }
 
@@ -36,4 +36,11 @@ a {
 
 img {
     display: inline;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
 }
