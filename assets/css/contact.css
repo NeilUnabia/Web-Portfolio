@@ -11,14 +11,61 @@
     
 }
 
-.contact_container {
-    margin-right: 55rem;
+.contact_holder {
+    margin-left: 3rem;
+}
+
+.contact_text {
+    padding-top: 13rem;
+    padding-left: 15rem;
+    margin-right: 9rem;
+    text-align: center;
 }
 
 .social_icons {
-    text-align:justify; /* Optional: centers the icons horizontally */
+    text-align:justify;
 }
 
 .social_icons li {
-    margin-right: 10px; /* Adjust spacing between icons as needed */
+    margin-right: 10px;
+}
+
+.fab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 30px;
+    height: 50px;
+    width: 50px;
+}
+
+.fa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 30px;
+    height: 50px;
+    width: 50px;
+}
+
+.fa-twitter {
+    background-color: #434749;
+    color: white;
+}
+
+.fa-facebook-messenger {
+    background-color: #434749;
+    color: white;
+}
+
+.fa-facebook-f {
+    background-color: #434749;
+    color: white;
+}
+
+.fa-envelope {
+    background-color: #434749;
+    color: white;
 }
