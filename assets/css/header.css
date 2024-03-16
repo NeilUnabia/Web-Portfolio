@@ -1,4 +1,4 @@
-.header_container {
+.header_holder {
     background-image: radial-gradient(#8f8f8f, #2e2e2e, #8f8f8f);
     position: fixed;
     display: flex;
@@ -9,23 +9,17 @@
     padding: 10px;
     background-color: black;
     width: 200%;
-    border-bottom: 1px solid rgb(0, 255, 34);
-    background-position: center 50%; /* Adjust the vertical position (50% in this example) */
+    background-position: center 50%;
     background-size: cover;
-}
-
-.logos {
-    height: 2rem;
-    width: 8rem;
-}
-
-header {
-    background-color: white;
 }
 
 nav {
     display: flex;
     justify-content: center;
+}
+
+header {
+    background-color: white;
 }
 
 .header_link {
@@ -35,64 +29,21 @@ nav {
 }
 
 .header_link:hover {
-    text-decoration: underline;
-    color: #fdcf00;
+    text-decoration: underline overline;
+    color: #000000;
 }
 
 .header_logo a {
     color: white;
-    margin-right: 31rem;
     font-size: 20px;
     transition: color 0.5s ease-in-out;
 }
 
-.header_logo a:hover {
-    color: #fdcf00;
+.neon_logo {
+    margin-right: 35rem;
 }
 
-footer {
-    background-color: #333;
+.font-effect-neon {
+    text-shadow: 0 0 0.1em #000000, 0 0 0.2em #000000, 0 0 0.3em #000000, 0 0 0.4em rgb(255, 255, 255),0 0 0.6em rgb(255, 255, 255), 0 0 0.8em rgb(255, 255, 255), 0 0 1.0em rgb(255, 255, 255), 0 0 1.2em rgb(255, 255, 255);
     color: #fff;
-    padding: 1rem;
-    text-align: center;
-}
-
-.fab {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    font-size: 30px;
-    height: 50px;
-    width: 50px;
-}
-
-.fa {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    font-size: 30px;
-    height: 50px;
-    width: 50px;
-}
-
-.fa-twitter {
-    background-color: #434749;
-    color: white;
-}
-
-.fa-facebook-messenger {
-    background-color: #434749;
-    color: white;
-}
-
-.fa-facebook-f {
-    background-color: #434749;
-    color: white;
-}
-
-.fa-envelope {
-    background-color: #434749;
-    color: white;
-}
+  }
