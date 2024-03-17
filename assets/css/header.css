@@ -46,4 +46,71 @@ header {
 .font-effect-neon {
     text-shadow: 0 0 0.1em #000000, 0 0 0.2em #000000, 0 0 0.3em #000000, 0 0 0.4em rgb(255, 255, 255),0 0 0.6em rgb(255, 255, 255), 0 0 0.8em rgb(255, 255, 255), 0 0 1.0em rgb(255, 255, 255), 0 0 1.2em rgb(255, 255, 255);
     color: #fff;
+}
+
+.menu-icon {
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 9999;
+    display: none;
   }
+  
+  .bar {
+    width: 30px;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  /* Dropdown menu styles */
+  .dropdown-menu {
+    display: none;
+    position: fixed;
+    top: 60px; /* Adjust as needed */
+    right: 20px; /* Adjust as needed */
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    z-index: 9998;
+  }
+  
+  .dropdown-menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .dropdown-menu ul li {
+    margin-bottom: 10px;
+  }
+  
+  .dropdown-menu ul li a {
+    text-decoration: none;
+    color: #000000;
+  }
+
+  .dropdown-menu ul li a:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+  }
+  
+  /* Show dropdown menu when active */
+  .show-menu {
+    display: block;
+  }
+
+
+@media (max-width: 1000px) {
+    header {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+}

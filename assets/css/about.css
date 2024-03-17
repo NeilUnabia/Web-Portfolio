@@ -1,33 +1,30 @@
 #about {
     padding-top: 10rem;
-    display: flex;
-    justify-content: center;
     padding-bottom: 7rem;
     background-image: linear-gradient(rgb(0, 0, 0), rgb(40, 40, 40), rgb(0, 0, 0));
     background-repeat:no-repeat;
     background-size: cover;
     background-size: 100% 100%;
+    display: block;
 }
 
 .about_holder {
-    padding-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3rem;
 }
 
 .about_title {
-    padding-left: 32rem;
     text-align: center;
-    margin-top: -6rem;
-    justify-content: center;
+    margin-top: -2em;
 }
 
-.about_img-wrapper {
-    margin-left: 5rem;
-}
 
 .about_img {
+    margin-top: -5rem;
     border-radius: 50%;
-    height: 24.5rem;
-    width: 24.5rem;;
+    height: 30rem;
+    width: 30rem;
 }
 
 .about_button_wrapper {
@@ -36,7 +33,6 @@
 }
 
 .about_button {
-    margin-right: 30rem;
     background-color: rgb(0, 0, 0);
     color: #ffffff;
     padding: 10px 30px;
@@ -54,4 +50,15 @@
 
 .about p {
     justify-items: center;
+}
+
+@media (max-width: 700px) {
+    .about_holder {
+        display: block;
+        text-align: center;
+    }
+
+    .about_img {
+        margin-top: 2rem;
+    }
 }

@@ -1,22 +1,16 @@
 #skills {
-    display: flex;
-    padding-top: 4rem;
-    justify-content: center;
-    padding-bottom: 3rem;
     background-image: linear-gradient(rgb(0, 0, 0), rgb(40, 40, 40), rgb(0, 0, 0));
     background-repeat:no-repeat;
     background-size: cover;
     background-size: 100% 100%;
-}
-
-.skills_holder {
-    padding-top: 1rem;
+    text-align: center;
+    padding-bottom: 10rem;
 }
 
 .skills_title {
-    text-align: center;
+    padding-top: 6rem;
 }
 
-#skills_list {
-    margin-top: 1rem;
+.skills_holder {
+    margin-top: 2rem;
 }
