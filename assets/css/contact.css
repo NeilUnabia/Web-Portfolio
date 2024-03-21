@@ -19,6 +19,11 @@
     justify-content: center;
 }
 
+.contact_text {
+    margin-right: 10rem;
+    margin-left: 10rem;
+}
+
 .social_icons {
     text-align:justify;
 }
