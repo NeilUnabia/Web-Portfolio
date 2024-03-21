@@ -20,6 +20,7 @@
 }
 
 .about_img {
+    margin-right: 5rem;
     margin-top: -5rem;
     border-radius: 50%;
     height: 30rem;
@@ -49,6 +50,11 @@
 
 .about p {
     justify-items: center;
+}
+
+.text_container1 {
+    margin-left: 5rem;
+    margin-right: 5rem;
 }
 
 @media (max-width: 700px) {
