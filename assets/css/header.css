@@ -7,10 +7,7 @@
     align-items: center;
     font-size: 30px;
     padding: 10px;
-    background-color: black;
     width: 200%;
-    background-position: center 50%;
-    background-size: cover;
 }
 
 nav {
@@ -49,9 +46,9 @@ header {
 }
 
 .menu-icon {
+    position: fixed;
     width: 30px;
     height: 30px;
-    position: fixed;
     top: 20px;
     right: 20px;
     cursor: pointer;
@@ -67,12 +64,11 @@ header {
     transition: 0.4s;
   }
   
-  /* Dropdown menu styles */
   .dropdown-menu {
     display: none;
     position: fixed;
-    top: 60px; /* Adjust as needed */
-    right: 20px; /* Adjust as needed */
+    top: 60px;
+    right: 20px;
     background-color: #fff;
     padding: 10px;
     border: 1px solid #ddd;
@@ -99,11 +95,9 @@ header {
     color: white;
   }
   
-  /* Show dropdown menu when active */
   .show-menu {
     display: block;
   }
-
 
 @media (max-width: 1000px) {
     header {
