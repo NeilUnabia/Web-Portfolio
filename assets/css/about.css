@@ -1,11 +1,8 @@
 #about {
+    display: block;
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(40, 40, 40), rgb(0, 0, 0));
     padding-top: 10rem;
     padding-bottom: 7rem;
-    background-image: linear-gradient(rgb(0, 0, 0), rgb(40, 40, 40), rgb(0, 0, 0));
-    background-repeat:no-repeat;
-    background-size: cover;
-    background-size: 100% 100%;
-    display: block;
 }
 
 .about_holder {
@@ -52,7 +49,7 @@
     justify-items: center;
 }
 
-.text_container1 {
+.about_text_container {
     margin-left: 5rem;
     margin-right: 5rem;
 }
