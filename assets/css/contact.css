@@ -1,11 +1,7 @@
 #contact {
     justify-content: center;
     padding-top: 5rem;
-    background-color: black;
     background-image: linear-gradient(rgb(0, 0, 0), rgb(40, 40, 40), rgb(0, 0, 0));
-    background-repeat:no-repeat;
-    background-size: cover;
-    background-size: 100% 100%;
     text-align: center;
 }
 
@@ -21,7 +17,7 @@
 
 .contact_text {
     margin-right: 9rem;
-    padding-left: 13rem;
+    margin-left: 13rem;
 }
 
 .social_icons {
