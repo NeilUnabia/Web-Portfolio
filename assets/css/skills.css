@@ -1,11 +1,11 @@
 #skills {
     background-image: linear-gradient(rgb(0, 0, 0), rgb(40, 40, 40), rgb(0, 0, 0));
     text-align: center;
-    padding-bottom: 10rem;
+    padding-bottom: 6rem;
 }
 
 .skills_title {
-    padding-top: 6rem;
+    padding-top: 5rem;
 }
 
 .skills_holder {
