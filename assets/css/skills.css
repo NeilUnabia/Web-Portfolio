@@ -1,8 +1,5 @@
 #skills {
     background-image: linear-gradient(rgb(0, 0, 0), rgb(40, 40, 40), rgb(0, 0, 0));
-    background-repeat:no-repeat;
-    background-size: cover;
-    background-size: 100% 100%;
     text-align: center;
     padding-bottom: 10rem;
 }
@@ -18,4 +15,10 @@
 .skills_img {
     height: 16rem;
     width: 50rem;
+}
+
+@media (max-width: 700px) {
+    .skills_img {
+        width: 30rem;
+    }
 }
