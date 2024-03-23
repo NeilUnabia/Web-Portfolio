@@ -20,9 +20,10 @@ header {
 }
 
 .header_link {
-    margin: 0 20px;
+    margin: 1px;
     font-size: 30px;
     color: white;
+    margin-left: 3rem;
 }
 
 .header_link:hover {
@@ -31,18 +32,19 @@ header {
 }
 
 .header_logo a {
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 20px;
-    transition: color 0.5s ease-in-out;
-}
-
-.neon_logo {
-    margin-right: 35rem;
 }
 
 .font-effect-neon {
+  margin-right: 33rem;
     text-shadow: 0 0 0.1em #000000, 0 0 0.2em #000000, 0 0 0.3em #000000, 0 0 0.4em rgb(255, 255, 255),0 0 0.6em rgb(255, 255, 255), 0 0 0.8em rgb(255, 255, 255), 0 0 1.0em rgb(255, 255, 255), 0 0 1.2em rgb(255, 255, 255);
     color: #fff;
+    transition: text-shadow 0.5s ease-in-out;
+}
+
+.font-effect-neon:hover {
+    text-shadow: 0 0 0.1em #000000, 0 0 0.2em #ffffff, 0 0 0.3em #ffffff, 0 0 0.4em rgb(0, 0, 0),0 0 0.6em rgb(0, 0, 0), 0 0 0.8em rgb(0, 0, 0), 0 0 1.0em rgb(0, 0, 0), 0 0 1.2em rgb(0, 0, 0);
 }
 
 .menu-icon {

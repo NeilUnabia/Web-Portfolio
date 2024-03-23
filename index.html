@@ -16,13 +16,12 @@
         <link rel="icon" href="assets/img/ic.png" type="image/x-icon">
     </head>
 
+
     <body>
         <header id="header">
             <nav>
                 <ul class="header_holder">
-                    <div class="neon_logo">
                     <li class="header_logo"><a class="K_logo" href=""><h1 class="font-effect-neon">NAAU</h1></a></li>
-                    </div>
                     <li><a class="header_link" href="#header">HOME</a></li>
                     <li><a class="header_link" href="#about">ABOUT</a></li>
                     <li><a class="header_link" href="#skills">SKILLS</a></li>
@@ -40,24 +39,24 @@
           
         <div class="dropdown-menu" id="dropdownMenu">
             <ul>
-            <li><a href="#hero" onclick="hideMenu()">HOME</a></li>
-            <li><a href="#about" onclick="hideMenu()">ABOUT</a></li>
-            <li><a href="#skills" onclick="hideMenu()">SKILLS</a></li>
-            <li><a href="#contact" onclick="hideMenu()">CONTACT</a></li>
+                <li><a href="#hero" onclick="hideMenu()">HOME</a></li>
+                <li><a href="#about" onclick="hideMenu()">ABOUT</a></li>
+                <li><a href="#skills" onclick="hideMenu()">SKILLS</a></li>
+                <li><a href="#contact" onclick="hideMenu()">CONTACT</a></li>
             </ul>
         </div>
 
 
         <section id="hero">
             <div class="hero_holder">
-                <img class="hero_img" src="assets\img\Avtr.png" alt="">
+                <img class="hero_img" src="assets/img/Avtr.png" alt="">
                 <div class="hero_text_container">
                     <h1 class="hero_title">Hello, I'm <br> Neil Angelo A. Unabia </h1>
                     <br>
                     <h2 class="hero_subtitle">Graphic Design</h2>
                     <br>
                     <br>
-                    <a href="https://drive.google.com/file/d/1RarzHOto52finBVMn2vw6skskAd7w4ZX/view?usp=sharing" class="hero_button">Resume</i></a>
+                    <a href="https://drive.google.com/file/d/1RarzHOto52finBVMn2vw6skskAd7w4ZX/view?usp=sharing" class="hero_button">Resume</a>
                 </div>
             </div>
         </section>
@@ -83,7 +82,7 @@
             <h1 class="skills_title">Skills</h1>
             <div class="skills_holder">
                 <div id="skills_list" class="skill">
-                    <img class="skills_img" src="assets\img\skills.png" alt="">
+                    <img class="skills_img" src="assets/img/skills.png" alt="">
                     <br>
                     <br>
                     <p>> Proficient in Canva for creating visually appealing designs</p>
@@ -104,17 +103,14 @@
             <h1>Contact</h1>
             <div class="contact_container">
                 <div class="contact_holder">
+                    <p>Contact me below this link</p>
+                    <br>
+                    <br>
                     <ul class="social_icons">
-                        <p>Contact me below this link</p>
-                        <br>
                         <li><a href="https://www.facebook.com/neilangeloalcantara.unabia" class="fab fa-facebook-f"></a><p> neilangeloalcantara.unabia </p></li>
-                        <br>
                         <li><a href="https://mail.google.com/mail/u/0/#inbox?compose=new" class="fa fa-envelope"></a><p> nau042303@gmail.com </p></li>
-                        <br>
                         <li><a href="https://twitter.com/UnabiaNeil0423" class="fab fa-twitter"></a><p> UnabiaNeil0423 </p></li>
-                        <br>
                         <li><a href="https://m.me/neilangeloalcantara.unabia" class="fab fa-facebook-messenger"></a><p> neilangeloalcantara.unabia </p></li>
-                        <br>
                     </ul>
                 </div>
                 <div class="contact_text">
@@ -128,14 +124,13 @@
             <p>&copy; 2024 Neil Angelo A. Unabia. All rights reserved.</p>
         </footer>
 
+        
         <script>
-          // Function to toggle menu visibility
         function toggleMenu() {
         var menu = document.getElementById("dropdownMenu");
         menu.classList.toggle("show-menu");
         }
 
-        // Function to hide menu when link is clicked
         function hideMenu() {
         var menu = document.getElementById("dropdownMenu");
         menu.classList.remove("show-menu");
