@@ -2,15 +2,15 @@
     background-image: linear-gradient(rgb(0, 0, 0), rgb(40, 40, 40), rgb(0, 0, 0));
     text-align: center;
     padding-top: 6rem;
-    padding-bottom: 11rem;
+    padding-bottom: 4rem;
 }
 
 .excelsheet {
     padding: 0;
     margin: 0;
     box-sizing: border-box; 
-    height: 40rem;
-    width: 65rem;
+    height: 30rem;
+    width: 80rem;
     margin-top: 2rem;
     border: 3px solid black;
 }
@@ -21,4 +21,4 @@
 
 .record_holder {
     margin-top: -2rem;
-
+}
