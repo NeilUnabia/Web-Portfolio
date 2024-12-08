@@ -1,6 +1,7 @@
 #record {
     background-image: linear-gradient(rgb(0, 0, 0), rgb(40, 40, 40), rgb(0, 0, 0));
     text-align: center;
+    padding-top: 6rem;
     padding-bottom: 11rem;
 }
 
@@ -8,8 +9,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box; 
-    height: 50rem;
-    width: 75rem;
+    height: 40rem;
+    width: 65rem;
     margin-top: 2rem;
     border: 3px solid black;
 }
