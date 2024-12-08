@@ -38,6 +38,23 @@
     margin-right: 5rem;
 }
 
+#das {
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+    background-color: var(--clr-light);
+}
+
+.excelsheet {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+    height: 50rem;
+    width: 75rem;
+    margin-top: 2rem;
+    border: 3px solid black;
+}
+
 @media (max-width: 700px) {
     .about_holder {
         display: block;
