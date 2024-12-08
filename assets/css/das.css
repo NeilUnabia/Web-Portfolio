@@ -1,8 +1,7 @@
-#das {
+#record {
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(40, 40, 40), rgb(0, 0, 0));
     text-align: center;
-    padding-top: 5rem;
-    padding-bottom: 10rem;
-    background-color: var(--clr-light);
+    padding-bottom: 6rem;
 }
 
 .excelsheet {
@@ -14,3 +13,11 @@
     margin-top: 2rem;
     border: 3px solid black;
 }
+
+.record_title {
+    padding-top: 5rem;
+}
+
+.record_holder {
+    margin-top: 2rem;
+
