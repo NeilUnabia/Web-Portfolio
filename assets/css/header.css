@@ -37,7 +37,7 @@ header {
 }
 
 .font-effect-neon {
-  margin-right: 33rem;
+  margin-right: 20rem;
     text-shadow: 0 0 0.1em #000000, 0 0 0.2em #000000, 0 0 0.3em #000000, 0 0 0.4em rgb(255, 255, 255),0 0 0.6em rgb(255, 255, 255), 0 0 0.8em rgb(255, 255, 255), 0 0 1.0em rgb(255, 255, 255), 0 0 1.2em rgb(255, 255, 255);
     color: #fff;
     transition: text-shadow 0.5s ease-in-out;
