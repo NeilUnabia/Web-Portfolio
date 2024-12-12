@@ -22,3 +22,10 @@
 .record_holder {
     margin-top: -2rem;
 }
+
+@media (max-width: 700px) {
+    .record_holder {
+        display: block;
+        text-align: center;
+    }
+}
