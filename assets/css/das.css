@@ -24,7 +24,7 @@
 }
 
 @media (max-width: 700px) {
-    .record_holder {
+    .excelsheet {
         display: block;
         text-align: center;
     }
