@@ -18,6 +18,10 @@
 }
 
 @media (max-width: 700px) {
+    #skills {
+        padding-right: 35rem;
+    }
+
     .skills_img {
         width: 30rem;
     }

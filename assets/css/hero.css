@@ -36,8 +36,13 @@
 }
 
 @media (max-width: 700px) {
+        #hero {
+            padding-right: 35rem;
+        }
+        
     .hero_holder {
         display: block;
         text-align: center;
     }
+
 }

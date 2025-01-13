@@ -39,12 +39,40 @@
 }
 
 @media (max-width: 700px) {
+    #about {
+        padding-right: 35rem;
+    }
+
     .about_holder {
+        padding-right: 30rem;
         display: block;
+    }
+
+    .about_text_container {
         text-align: center;
+        justify-items: center;
+        margin-left: 5rem;
+        padding-right: 20rem;
     }
 
     .about_img {
         margin-top: 2rem;
+        height: 25rem;
+        width: 25rem;
+    }
+
+    .about_title {
+        text-align: center;
+        margin-top: -2rem;
+    }
+    
+    .about p {
+        align-items: center;
+        justify-items: center;
+    }
+
+    .about_button_wrapper {
+        text-align: center;
+        margin-top: 20px;
     }
 }

@@ -68,3 +68,9 @@
     background-color: #434749;
     color: white;
 }
+
+@media (max-width: 700px) {
+    #contact {
+        padding-right: 35rem;
+    }
+}
