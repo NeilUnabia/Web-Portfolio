@@ -23,18 +23,12 @@
     margin-top: -2rem;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 900px) {
     #record {
-        padding-right: 35rem;
+        width: fit-content;
     }
 
     .excelsheet {
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box; 
-        height: 80rem;
-        width: 35rem;
-        margin-top: 2rem;
-        border: 3px solid black;
+        width: 51.2rem;
     }
 }

@@ -5,6 +5,7 @@
 }
 
 .skills_title {
+    text-align: center;
     padding-top: 5rem;
 }
 
@@ -17,12 +18,13 @@
     width: 50rem;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 900px) {
     #skills {
-        padding-right: 35rem;
+        width: 51.2rem;
+        text-align: justify;
     }
 
     .skills_img {
-        width: 30rem;
+        width: 51.2rem;
     }
 }

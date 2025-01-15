@@ -35,14 +35,25 @@
     box-shadow: none;
 }
 
-@media (max-width: 700px) {
-        #hero {
-            padding-right: 35rem;
-        }
+@media (max-width: 900px) {
+    #hero {
+        width: 51.2rem;
+    }
         
     .hero_holder {
         display: block;
         text-align: center;
+    }
+
+    .hero_text_container h1 {
+        margin-top: 3rem;
+    }
+
+    .hero_img {
+        border-radius: 50px;
+        text-align: center;
+        height: 15rem;
+        width: 15rem;
     }
 
 }
