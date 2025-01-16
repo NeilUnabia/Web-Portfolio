@@ -1,22 +1,22 @@
-#about {
+#project {
     display: block;
     background-image: linear-gradient(rgb(0, 0, 0), rgb(40, 40, 40), rgb(0, 0, 0));
     padding-top: 10rem;
     padding-bottom: 7rem;
 }
 
-.about_holder {
+.project_holder {
     display: flex;
     justify-content: space-evenly;
     margin-top: 3rem;
 }
 
-.about_title {
+.project_title {
     text-align: center;
     margin-top: -2rem;
 }
 
-.about_img {
+.project_img {
     margin-right: 5rem;
     margin-top: -1rem;
     border-radius: 50%;
@@ -24,23 +24,42 @@
     width: 30rem;
 }
 
-.about_button_wrapper {
+.project_button_wrapper {
     text-align: center;
     margin-top: 20px;
 }
 
-.about p {
+.project p {
     justify-items: center;
 }
 
-.about_text_container {
+.project_text_container {
     margin-left: 5rem;
     margin-right: 5rem;
 }
 
+.project_button {
+    margin-left: 7rem;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border-radius: 100px;
+    padding: 10px 20px;
+    font-size: 16px;
+    box-shadow: 0 0 10px #ffffff;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.project_button:hover {
+    box-shadow: none;
+}
+
 @media (max-width: 900px) {
-    #about {
-        width: fit-content;
+    #project {
+        width: 51.2rem;
+    }
+
+    .project_button {
+        margin-left: 7rem;
     }
 
 }
